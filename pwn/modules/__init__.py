@@ -1,4 +1,4 @@
-from FileTraversalUpload import FileTraversalUpload
+from .FileTraversalUpload import FileTraversalUpload
 
 __all__ = [
     FileTraversalUpload

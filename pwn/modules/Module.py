@@ -3,11 +3,11 @@ class Module:
     """
     Abstract Module
     """
-    headers = {}
+    _headers = {}
     def __init__(self, headers: dict = {}):
-        self.headers.update(headers)
+        self._headers.update(headers)
     
     def setTarget(self, host: str, path: str, https: bool = True):
-        self.https = https
-        self.host = host
-        self.path = path
+        self._https = https
+        self._host = host
+        self._path = path
