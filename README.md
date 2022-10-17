@@ -1,2 +1,2 @@
 # pwnframework
-metasploit but worse
+a small set of modules for pwning stuff
